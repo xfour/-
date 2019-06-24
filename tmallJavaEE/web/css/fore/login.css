@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+	font-family:Arial;
+	min-width:1024px;
+	background:#fefefe;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	color:#999;	
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #e7e7e7;
+}
+
+a{
+	color:#999;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+.redcolor{
+	color:#dd2727 !important;
+}
+
+div.simpleLogoDiv{
+	width:1010px;
+	height:80px;
+	margin:0px auto;
+	line-height:80px;
+}
+
+div.loginOutDiv{
+	height:600px;
+	background:#6604a7;
+}
+
+div.loginDiv{
+	position:relative;
+	width:1024px;
+	height:600px;
+	margin:0px auto 40px auto;
+	background:url(../../img/site/loginBg.jpg);
+}
+
+div.loginInputDiv{
+	position:absolute;
+	top:85px;
+	right:0px;
+	width:350px;
+	height:400px;
+	background:#fff;
+	padding:20px 25px 0px 25px;
+}
+
+div.loginMsg{
+	visibility:hidden;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background:#f2dede;
+    color:#a94442;
+    border:#ebccd1 1px solid;
+    border-radius:3px;
+}
+
+div.loginTop{
+	color:#333;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom:10px;
+}
+
+div.loginInput{
+	width:300px;
+	height:40px;
+	margin-top:20px;
+	border:1px solid #cbcbcb;
+}	
+
+div.loginInput span{
+	width:38px;
+	height:38px;
+	background:#cbcbcb;
+	text-align:center;
+	font-size:22px;
+	line-height:40px;
+	color:#606060;
+	display:inline-block;
+	top:0px;
+}
+
+div.loginInput input{
+	border:none;
+	width:240px;
+	height:28px;
+	vertical-align:top;
+	margin:5px 10px;
+}
+
+div.loginWarning{
+	padding:20px 0px;
+	color:#c40000;
+}
+
+div.loginOther{
+	width:300px;	
+}
+
+div.loginOther span{
+	float:right;	
+}
+
+div.loginBtn{
+	margin:20px 0px;
+	width:300px;
+	height:35px;
+}
+
+div.loginBtn input{
+	border:none;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	background:#dd2727;
+	border-radius:4px;
+	width:300px;
+	height:35px;
+}
+
+div.loginBtn input:hover{
+	background:#c40000;
+}
+
+div.footer_ensure{
+	margin:24px auto;
+	width:982px;
+	height:90px;	
+}
+
+div.footer_desc{
+	width:1024px;
+	margin:0px auto;
+	height:170px;
+}
+
+div.footer_desc .desc{
+	float:left;
+	width:150px;
+	height:170px;
+	margin-left:54px;
+}
+
+div.footer_desc .desc_title{
+	height:20px;
+	line-height:20px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+
+div.footer_desc li{
+	height:20px;
+	line-height:20px;
+	list-style:none;
+	font-size:16px;
+}
+
+div.footer .copyright{
+	background:#000;
+	height:auto;
+	padding:10px 0px;
+}
+
+.service_link{
+	width:1024px;
+	margin:0px auto;
+}
+
+.service_link a{
+	color:#fff;
+	margin:0px 5px;
+}
+
+.copyright .rights{
+	width:1024px;
+	margin:0px auto;
+}
+
+
+
+	
+

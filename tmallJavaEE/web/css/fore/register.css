@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+	font-family:Arial;
+	min-width:1024px;
+	background:#fefefe;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	color:#999;	
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #e7e7e7;
+}
+
+a{
+	color:#999;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+.redcolor{
+	color:#dd2727 !important;
+}
+
+.nav_div{
+	background:#f2f2f2;
+}
+
+nav.top{
+	width:1024px;
+	margin:0px auto;
+	padding:5px 0px;
+	border-bottom:#e7e7e7;
+}
+
+nav.top span,nav.top a{
+	color:#999;
+	margin:0px 10px;
+}
+
+nav.top a:hover,nav.top a:hover strong{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+div.simpleSearchOutDiv{
+	position:relative;
+	width:1010px;
+	height:80px;
+	margin:0px auto;
+}
+
+img.simpleLogo{
+	position:absolute;
+	left:0px;
+	top:26px;
+}
+
+div.simpleSearchDiv{
+	position:absolute;
+	right:0px;
+	background:#dd2727;
+	width:400px;
+	margin:15px auto;
+	height:40px;
+	padding:2px;
+	display:block;
+}
+
+input.simpleSearchInput{
+	width:274px;
+	border:none;
+	height:36px;
+	outline:none;
+	float:left;
+}
+
+input.simpleSearchBtn{
+	width:120px;
+	height:36px;
+	outline:none;
+	border:none;
+	margin-left:2px;
+	font-size:20px;
+	float:left;
+	color:#fff;
+	background:#dd2727;
+	font-weight:bold;
+}
+
+div.simpleSearchBelow{
+	margin-top:42px;
+	margin-left:-10px;
+}
+
+div.registerMsg,div.validRePassword{
+	width:600px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:#f2dede;
+    color:#a94442;
+    border:#ebccd1 1px solid;
+    margin:30px auto 0px auto;
+    border-radius:3px;
+}
+
+div.registerDiv{
+	width:500px;
+	margin:30px auto 0px auto;
+}
+
+div.registerDiv table{
+	width:500px;
+}
+
+div.registerDiv td{
+	padding:10px 0px;
+	color:#333;	
+}
+
+div.registerDiv td.tdTitle{
+	font-weight:bold;	
+	font-size:14px;
+}
+
+div.registerDiv td.leftTd{
+	text-align:right;
+	padding-right:50px;
+}
+
+div.registerDiv td.tdButton{
+	padding:25px 0px;
+	text-align:center;
+}
+
+div.registerDiv td.tdButton button{
+	border:none;
+	background:#c40000;
+	color:#fff;
+	font-weight:700;
+	border-radius:3px;
+	padding:10px 70px;
+}
+
+div.registerDiv td.tdButton button:hover{
+	background:#dd2727;
+}
+
+div.registerDiv input{
+	width:200px;
+	height:35px;
+	border:1px solid #e8e8e8;
+}
+
+
+div.footer_ensure{
+	margin:24px auto;
+	width:982px;
+	height:90px;	
+}
+
+div.footer_desc{
+	width:1024px;
+	margin:0px auto;
+	height:170px;
+}
+
+div.footer_desc .desc{
+	float:left;
+	width:150px;
+	height:170px;
+	margin-left:54px;
+}
+
+div.footer_desc .desc_title{
+	height:20px;
+	line-height:20px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+
+div.footer_desc li{
+	height:20px;
+	line-height:20px;
+	list-style:none;
+	font-size:16px;
+}
+
+div.footer .copyright{
+	background:#000;
+	height:auto;
+	padding:10px 0px;
+}
+
+.service_link{
+	width:1024px;
+	margin:0px auto;
+}
+
+.service_link a{
+	color:#fff;
+	margin:0px 5px;
+}
+
+.copyright .rights{
+	width:1024px;
+	margin:0px auto;
+}
+
+
+
+	
+

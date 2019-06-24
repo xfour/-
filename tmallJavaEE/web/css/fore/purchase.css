@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+	font-family:Arial;
+	min-width:1024px;
+	background:#fefefe;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	color:#999;	
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #e7e7e7;
+}
+
+a{
+	color:#999;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+.redcolor{
+	color:#dd2727 !important;
+}
+
+.nav_div{
+	background:#f2f2f2;
+}
+
+nav.top{
+	width:1024px;
+	margin:0px auto;
+	padding:5px 0px;
+	border-bottom:#e7e7e7;
+}
+
+nav.top span,nav.top a{
+	color:#999;
+	margin:0px 10px;
+}
+
+nav.top a:hover,nav.top a:hover strong{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+div.purchaseFlowImg{
+	width:1010px;
+	height:70px;
+	margin:20px auto;
+}
+
+div.purchaseFlowImg .purchaseFlow{
+	float:right;
+}
+
+div.purchaseOutDiv{
+	margin:0px auto;
+	width:1010px;
+}
+
+div.deliveryAddressTitle,div.orderFormMessageTitle{
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+
+div.deliveryAddressDiv table{
+	width:600px;
+}
+
+div.deliveryAddressDiv td{
+	color:#333;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+
+div.deliveryAddressDiv span{
+	color:#dd2727;
+}
+
+div.deliveryAddressDiv input{
+	width:200px;
+	border:1px solid #aaa;
+}
+
+div.deliveryAddressDiv textarea{
+	width:350px;
+	border:1px solid #aaa;
+}
+
+.orderFormMessageTable{
+	width:1010px;
+}
+
+tr.orderFormMessageTop{
+	padding-bottom:5px;
+	height:30px;
+	line-height:30px;
+	border-bottom:3px solid #b2d1ff;
+}
+
+tr.orderFormMessageTop td{
+	color:#333;
+}
+	
+tr.orderFormMessageContent{
+	border-bottom:1px solid #e8e8e8;
+	height:70px;
+}
+
+tr.orderFormMessageContent .orderItemImg{
+	width:50px;
+	height:50px;
+	border:1px solid #e9e9e9;
+	margin:0px 15px 0px 5px;
+	float:left;
+}
+
+tr.orderFormMessageContent .orderItemDetail span{
+	color:#999;
+}
+
+tr.orderFormMessageContent .orderItemDetail{
+	height:50px;
+	float:left;
+	padding-top:10px;
+}
+
+tr.orderFormMessageContent .orderItemNumber{
+	border:1px solid #e8e8e8;
+	width:40px;
+	text-align:center;
+}
+
+tr.orderFormMessageContent .orderItemDetail img{
+	margin-right:3px;
+}
+
+span.orderItemPrice,span.orderItemPrice span,.orderItemNumber{
+	color:#000;
+}
+
+span.orderItemSum,span.orderItemSum span{
+	color:#dd2727;
+	font-weight:bold;
+}
+
+span.deliveryWay{
+	color:#666;
+}
+
+span.deliveryWay input{
+	vertical-align:text-bottom;
+	margin-right:3px;
+}
+
+span.deliveryWay select{
+	border:1px solid #aaa;
+	border-radius:0px;
+	background:#fff;
+}
+
+div.orderFormSaying{
+	margin-top:-1px;
+	border-top:2px solid #b2d1ff;
+	background:#f2f6ff;
+	padding:20px;
+}
+
+div.orderFormSaying input{
+	width:300px;
+	border:1px solid #aaa;
+}
+
+div.orderFormSaying textarea{
+	width:300px;
+	vertical-align:text-top;
+}
+
+div.orderFormSaying span{
+	float:right;
+}
+
+div.orderFormSumDiv{
+	text-align:right;
+	line-height:40px;
+	height:40px;
+	padding:40px;
+	font-size:20px;
+	color:#dd2727;
+	font-weight:bold;
+}
+
+
+div.orderFormSumDiv span{
+	font-size:12px;
+	font-weight:normal;
+}
+
+div.orderFormSumDiv .orderFormSum{
+	color:#dd2727;
+}
+
+div.submitOrderForm{
+	margin-top:30px;
+	text-align:right;
+}
+
+div.submitOrderForm input{
+	border:none;
+	background:#dd2727;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	padding:0px 60px;
+	font-weight:700;
+	font-size:14px;
+}
+
+div.submitOrderForm input:hover{
+	background:#c40000;
+}
+
+div.footer_ensure{
+	margin:24px auto;
+	width:982px;
+	height:90px;	
+}
+
+div.footer_desc{
+	width:1024px;
+	margin:0px auto;
+	height:170px;
+}
+
+div.footer_desc .desc{
+	float:left;
+	width:150px;
+	height:170px;
+	margin-left:54px;
+}
+
+div.footer_desc .desc_title{
+	height:20px;
+	line-height:20px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+
+div.footer_desc li{
+	height:20px;
+	line-height:20px;
+	list-style:none;
+	font-size:16px;
+}
+
+div.footer .copyright{
+	background:#000;
+	height:auto;
+	padding:10px 0px;
+}
+
+.service_link{
+	width:1024px;
+	margin:0px auto;
+}
+
+.service_link a{
+	color:#fff;
+	margin:0px 5px;
+}
+
+.copyright .rights{
+	width:1024px;
+	margin:0px auto;
+}
+
+
+
+	
+

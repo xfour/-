@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size:12px;
+	font-family:Arial;
+	min-width:1024px;
+	background:#fefefe;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	color:#999;	
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #e7e7e7;
+}
+
+a{
+	color:#999;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+.redcolor{
+	color:#dd2727 !important;
+}
+
+.nav_div{
+	background:#f2f2f2;
+}
+
+nav.top{
+	width:1024px;
+	margin:0px auto;
+	padding:5px 0px;
+	border-bottom:#e7e7e7;
+}
+
+nav.top span,nav.top a{
+	color:#999;
+	margin:0px 10px;
+}
+
+nav.top a:hover,nav.top a:hover strong{
+	text-decoration:none;
+	color:#dd2727;
+}
+
+div.purchaseFlowImg{
+	width:1010px;
+	height:70px;
+	margin:20px auto;
+}
+
+div.purchaseFlowImg{
+	padding-left:10px;
+}
+
+div.purchaseOutDiv{
+	margin:0px auto;
+	width:800px;
+}
+
+div.deliveryAddressTitle,div.orderFormMessageTitle{
+	font-size:18px;
+	color:#333;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+
+div.deliveryAddressDiv table{
+	width:800px;
+}
+
+div.deliveryAddressDiv td{
+	font-size:16px;
+	color:#333;
+	padding-left:20px;
+	padding-bottom:10px;
+}
+
+div.deliveryAddressDiv span{
+	color:#dd2727;
+}
+
+div.deliveryAddressDiv input{
+	width:300px;
+	height:25px;
+	border:1px solid #aaa;
+}
+
+div.deliveryAddressDiv textarea{
+	width:450px;
+	border:1px solid #aaa;
+}
+
+
+
+div.footer_ensure{
+	margin:24px auto;
+	width:982px;
+	height:90px;	
+}
+
+div.footer_desc{
+	width:1024px;
+	margin:0px auto;
+	height:170px;
+}
+
+div.footer_desc .desc{
+	float:left;
+	width:150px;
+	height:170px;
+	margin-left:54px;
+}
+
+div.footer_desc .desc_title{
+	height:20px;
+	line-height:20px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+
+div.footer_desc li{
+	height:20px;
+	line-height:20px;
+	list-style:none;
+	font-size:16px;
+}
+
+div.footer .copyright{
+	background:#000;
+	height:auto;
+	padding:10px 0px;
+}
+
+.service_link{
+	width:1024px;
+	margin:0px auto;
+}
+
+.service_link a{
+	color:#fff;
+	margin:0px 5px;
+}
+
+.copyright .rights{
+	width:1024px;
+	margin:0px auto;
+}
+
+
+
+	
+
